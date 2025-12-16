@@ -1,0 +1,4 @@
+CREATE DATABASE webapp;
+CREATE USER 'webuser'@'12.0.1.192' IDENTIFIED BY 'StrongPassword@123';
+GRANT ALL PRIVILEGES ON webapp.* TO 'webuser'@'12.0.1.192';
+FLUSH PRIVILEGES;
